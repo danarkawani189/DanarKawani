@@ -23,6 +23,7 @@
 
    </head>
          <body>
+           
 
       <div id="app">
          <div id="bar" class="statusbar"></div>
@@ -54,7 +55,7 @@
                         <div class="block">
                             <a href="/new/">
                            <div class="semibold uppercase white-color clear-title" style="text-align: left">welcome</div>
-                           <h1 style="margin-top: 0px; text-align: left" class="white-color"><span class="semibold">Kurd_App_Store video Downloader 🔥</span> </h1>
+                           <h1 style="margin-top: 0px; text-align: left" class="white-color"><span class="semibold">Kurd_App_Store 🔥</span> </h1>
                            <a href="/new/" class="link">
                            </a>
                           </a>
@@ -62,12 +63,12 @@
                       
                       
                       
-                      
-                     <div class="block-title block-title-medium" style="text-align:left;">Apps</div>
+                     <div class="block-title block-title-medium" style="text-align:left;margin-top:-25px">Apps</div>
                      <div class="list no-hairlines">
                        
                      <ul>
                         <li>
+                          
                            <a href="/jailbreak/" class="item-link item-content">
                            <div class="item-media"><img class="shadow cat-icons" src="https://is.gd/R7MwIf"></div>
                               <div class="item-inner">
@@ -119,6 +120,14 @@
                        </li>
                        </ul>
                       
+                       
+                       
+                       
+                     <center>
+
+        <p style="font-size: 15px;" id="info_label" class=""></p>
+    </center>     
+                       
                   </div>
                </div>
             </div>
@@ -221,6 +230,7 @@
    TikTok LRD ❌
    <br>
    <br>
+  <br>
 
 </div>
 </div>
@@ -233,6 +243,16 @@
       <script type="text/javascript" src="assets/js/app.js"></script>
       <script type="text/javascript" src="assets/js/link.js"></script>
 
+           
+      <script type="text/javascript">
+        if (navigator.userAgent.match(/iPad|iPhone|iPod/i)) document.getElementById("info_label").innerHTML = ((navigator.userAgent).match(/OS (\d)?\d_\d(_\d)?/i)[0].replace(/_/g, ".").replace("OS", "iOS") + " - Kurd_App_Store");
+        else {
+            document.getElementById("info_label").innerHTML = "Kurd_App_Store";
+            $$('#info_label').css('margin-bottom', '-36px');
+        }
+    </script>         
+           
+           
 <script>
     document.onkeydown = function(e) {
   if(event.keyCode == 12345) {
