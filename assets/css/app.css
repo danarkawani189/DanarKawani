@@ -5,6 +5,7 @@
 .white-color {
     color: #fff;
 }
+
 .downlod{
         margin-top: -70px;width: 100%;height:30px;font-size: 1.25em;
     }
@@ -60,8 +61,7 @@ background-image: url(../img/gradient.png);
 }
 
 
-@media (prefers-color-scheme: dark) {
-
+@media (prefers-color-scheme: light) {
 
     .clear-title {
         color: #000; 
