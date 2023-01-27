@@ -61,7 +61,7 @@ background-image: url(../img/gradient.png);
 }
 
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: green) {
 
     .clear-title {
         color: #000; 
